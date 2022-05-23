@@ -1,3 +1,4 @@
+
 :root {
     --clr-Pale-blue: hsl(225, 100%, 94%);
     --clr-Bright-blue: hsl(245, 75%, 52%);
@@ -99,8 +100,9 @@ img {
     width: 55px;
 }
 
-.plan>.price>h4 {
+.plan>.price>h2 {
     color: var(--clr-Dark-blue);
+    font-size: 16px;
     font-weight: 900;
 }
 
@@ -153,12 +155,12 @@ img {
     color: var(--clr-Dark-blue);
 }
 
-.attribution {
+footer>.attribution {
     font-size: 11px;
     text-align: center;
 }
 
-.attribution a {
+footer>.attribution a {
     color: hsl(228, 45%, 44%);
 }
 
